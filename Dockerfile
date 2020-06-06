@@ -1,6 +1,6 @@
-FROM openjdk:11-jdk@sha256:b4d77846d33f7f3535381e1b73e4914d5d122c61fe1d30ae6940e7398ba9e533
+FROM ubuntu:latest
 
-LABEL version="2.0.1"
+LABEL version="2.0.2"
 LABEL repository="https://github.com/Ridermansb/firebase-action"
 LABEL homepage="https://github.com/Ridermansb/firebase-action"
 LABEL maintainer="Riderman <ridermansb@gmail.com>"
