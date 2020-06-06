@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-LABEL version="2.0.2"
+LABEL version="2.0.3"
 LABEL repository="https://github.com/Ridermansb/firebase-action"
 LABEL homepage="https://github.com/Ridermansb/firebase-action"
 LABEL maintainer="Riderman <ridermansb@gmail.com>"
