@@ -12,11 +12,12 @@ LABEL com.github.actions.color="gray-dark"
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN apt-get update -qq && apt-get install -qq --no-install-recommends \
   nodejs \
+  curl \
   && rm -rf /var/lib/apt/lists/*
 
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN npm install -g firebase-tools
 
 COPY LICENSE README.md /
