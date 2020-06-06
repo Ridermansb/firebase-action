@@ -1,5 +1,5 @@
-name: 'GitHub Action for Firebase'
-author: 'Jeremy Shore'
+name: 'GitHub Action with Firebase CLI and Java ready'
+author: 'Riderman de Sousa Barbosa'
 description: 'Wraps the firebase-tools CLI to enable common commands.'
 branding:
   icon: 'package'
